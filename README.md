@@ -1,7 +1,3 @@
-
-https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/29a74784-6b5d-4da1-9adf-2668af61c21d
-
-https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/e001bf82-affe-4093-8b06-0917b71ab5e0
 # Restaurant-UTS-PAM
 Nama  : Rizky Dwi Putra
 kelas : A
