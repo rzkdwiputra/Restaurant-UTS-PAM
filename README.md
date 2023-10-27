@@ -1,5 +1,6 @@
 # Restaurant-UTS-PAM
 Nama  : Rizky Dwi Putra
+kelas : A
 NIM  : 1217050127
 Mengerjakan Proyek UTS Mata Kuliah Praktikum Pengembangan Mobile
 Dokumentasi:
