@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_person" />
+
+    <TextView
+        android:id="@+id/person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="@tools:sample/lorem" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner_pg" />
+
+    <TextView
+        android:id="@+id/store_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/store"
+        android:textColor="#733F0E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lokasi_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:text="@string/lokasi"
+        android:textColor="#733F0E"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tempat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/lokasi_text"
+        android:textColor="#733F0E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/maps_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="-25dp"
+        android:gravity="center"
+        android:text="@string/map_text"
+        android:textColor="#733F0E"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/location" />
+
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/red"
+        android:elevation="20dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>

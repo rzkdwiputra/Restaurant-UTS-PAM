@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".OrderDetail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/order_detail"
+        tools:text="@tools:sample/lorem"
+        android:textColor="#733F0E"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/order_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-410dp"
+        android:text="Rizky"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/order_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-410dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Store : Cihampelas"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/order_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="-410dp"
+        tools:text="@tools:sample/lorem"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengiriman"
+        android:textColor="#733F0E"
+        android:textSize="30sp"
+        android:layout_marginLeft="-410dp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/Radio_grup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="-410dp"
+        android:layout_marginTop="250dp"
+        >
+
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="Ambil Sendiri"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Dast Delevery (Minimal 30 menit sampai)"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+
+</LinearLayout>

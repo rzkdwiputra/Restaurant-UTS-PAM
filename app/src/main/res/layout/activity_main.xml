@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/rm_pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/rm_pizza"
+        android:textSize="@dimen/text_heading"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-250dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/store"
+        android:textColor="#733F0E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/store_spinner"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="-340dp"
+        android:layout_marginTop="370dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/name"
+        android:textColor="#733F0E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="293dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="-415dp"
+        android:layout_marginTop="490dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button_first"
+            android:layout_width="290dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="-290dp"
+            android:layout_marginTop="600dp"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/red"
+            android:textSize="20sp"
+            app:cornerRadius="0dp" />
+</LinearLayout>

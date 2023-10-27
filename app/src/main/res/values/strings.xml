@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="store">Store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="store">
+        <item>Cihampelas</item>
+        <item>Cibiru</item>
+        <item>Bandung</item>
+    </string-array>
+
+    <string name="selected_item">Anda Memilih Kota</string>
+    <string name="name">Your Name</string>
+    <string name="name_hint">Please fill your name</string>
+    <string name="lokasi">Chiampelas</string>
+    <string name="lokasi_text">Lokasi</string>
+    <string name="map_text">Find on Maps</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="radio1">Anda Memilih Pilihan Ambil Sendiri</string>
+    <string name="radio2">Anda Memilih Pilihan Fast Delivery</string>
+</resources>
