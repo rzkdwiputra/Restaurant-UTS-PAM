@@ -13,7 +13,6 @@ Dokumentasi:
   <img width="186" alt="image" src="https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/651875af-3ea0-411a-9132-43c2f6216ced">
 
 2. Vidio
-https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/0ece8266-b481-4695-bf98-b44458c0c884
 
 
 
