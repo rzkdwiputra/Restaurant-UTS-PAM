@@ -8,7 +8,6 @@ Dokumentasi:
   <img width="242" alt="image" src="https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/d6930dd0-da59-49f5-8e18-835e75194ab8">
   <img width="191" alt="image" src="https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/d562c5b6-b26e-417a-8ce1-3f1ad9d392f9">
   <img width="188" alt="image" src="https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/3f89b5f7-0143-404e-966f-1de191af9903">
-  <img width="197" alt="image" src="https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/95e9adac-7e8f-4b5d-90ed-16ec944402f5">
   <img width="181" alt="image" src="https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/62dce34c-9980-4b5b-9874-4d67c3d55a4c">
   <img width="185" alt="image" src="https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/92639c2b-09b0-44f2-9288-870e364d3d42">
   <img width="186" alt="image" src="https://github.com/rzkdwiputra/Restaurant-UTS-PAM/assets/95334157/651875af-3ea0-411a-9132-43c2f6216ced">
